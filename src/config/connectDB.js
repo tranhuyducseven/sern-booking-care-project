@@ -1,11 +1,9 @@
 const { Sequelize } = require('sequelize');
 
-
-
 // Option 3: Passing parameters separately (other dialects)
 const sequelize = new Sequelize('booking-care', 'root', null, {
     host: 'localhost',
-    dialect: 'mssql'
+    dialect: 'mysql' 
 });
 let connectDB = async () => {
     try {

@@ -36,6 +36,7 @@
     "@types/tedious": "^4.0.6",
     "@types/validator": "^13.7.1",
     "nodemon": "2.0.7",
+    "sequelize": "^6.13.0",
     "sequelize-cli": "6.2.0"
   }
 }
